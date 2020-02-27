@@ -1,5 +1,19 @@
 # D3v5-Collapsible-Tree-Zoom-Pan-Drag
 
+### Introduction ###
+
+This project creates a horizontal collapsible tree using D3 v5 library. The project uses Angular 8 CLI.
+Credits and inpirations 
+Inspiration -
+1. @robschmuecker git - https://gist.github.com/robschmuecker/
+2. https://bl.ocks.org/d3noob/1a96af738c89b88723eb63456beb6510
+
+Credits
+1. https://bl.ocks.org/d3noob/1a96af738c89b88723eb63456beb6510
+2. https://stackoverflow.com/questions/54966419/d3-angular-tree/54967494#54967494 - This SO answer helped me to frame my code.
+3. https://codepen.io/rjvim/pen/rYGzja
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
 ## Development server
