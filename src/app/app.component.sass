@@ -1,0 +1,33 @@
+.node
+  cursor: pointer
+
+  circle
+    fill: #fff
+    stroke: steelblue
+    stroke-width: 1.5px
+
+  text
+    font: 10px sans-serif
+
+.link
+  fill: none
+  stroke: #ccc
+  stroke-width: 1.5px
+
+body
+  overflow: hidden
+
+.link
+  fill: none
+  stroke: #f00
+  stroke-width: 2px
+
+.ghostCircle
+  &.show
+    display: block
+
+.ghostCircle
+  display: none
+
+.activeDrag .ghostCircle
+  display: none
