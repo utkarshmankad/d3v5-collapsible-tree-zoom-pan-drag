@@ -985,11 +985,11 @@ export class AppComponent implements OnInit {
                     size: 8411
                   },
                   {
-                    name: 'IcicleTreeLayout',
+                    name: 'Icicled3v5-collapsible-tree-zoom-pan-drag',
                     size: 4864
                   },
                   {
-                    name: 'IndentedTreeLayout',
+                    name: 'Indentedd3v5-collapsible-tree-zoom-pan-drag',
                     size: 3174
                   },
                   {
@@ -997,7 +997,7 @@ export class AppComponent implements OnInit {
                     size: 7881
                   },
                   {
-                    name: 'NodeLinkTreeLayout',
+                    name: 'NodeLinkd3v5-collapsible-tree-zoom-pan-drag',
                     size: 12870
                   },
                   {
@@ -1005,7 +1005,7 @@ export class AppComponent implements OnInit {
                     size: 2728
                   },
                   {
-                    name: 'RadialTreeLayout',
+                    name: 'Radiald3v5-collapsible-tree-zoom-pan-drag',
                     size: 12348
                   },
                   {

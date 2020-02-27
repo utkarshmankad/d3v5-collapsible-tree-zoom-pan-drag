@@ -1,5 +1,5 @@
 {
-  "name": "treelayout",
+  "name": "d3v5-collapsible-tree-zoom-pan-drag",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

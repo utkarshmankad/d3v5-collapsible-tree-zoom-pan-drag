@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "treelayout": {
+    "d3v5-collapsible-tree-zoom-pan-drag": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/treelayout",
+            "outputPath": "dist/d3v5-collapsible-tree-zoom-pan-drag",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "treelayout:build"
+            "browserTarget": "d3v5-collapsible-tree-zoom-pan-drag:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "treelayout:build:production"
+              "browserTarget": "d3v5-collapsible-tree-zoom-pan-drag:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "treelayout:build"
+            "browserTarget": "d3v5-collapsible-tree-zoom-pan-drag:build"
           }
         },
         "test": {
@@ -103,16 +103,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "treelayout:serve"
+            "devServerTarget": "d3v5-collapsible-tree-zoom-pan-drag:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "treelayout:serve:production"
+              "devServerTarget": "d3v5-collapsible-tree-zoom-pan-drag:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "treelayout"
+  "defaultProject": "d3v5-collapsible-tree-zoom-pan-drag"
 }

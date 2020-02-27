@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('treelayout app is running!');
+    expect(page.getTitleText()).toEqual('d3v5-collapsible-tree-zoom-pan-drag app is running!');
   });
 
   afterEach(async () => {

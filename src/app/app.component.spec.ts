@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'treelayout'`, () => {
+  it(`should have as title 'd3v5-collapsible-tree-zoom-pan-drag'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('treelayout');
+    expect(app.title).toEqual('d3v5-collapsible-tree-zoom-pan-drag');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('treelayout app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('d3v5-collapsible-tree-zoom-pan-drag app is running!');
   });
 });
